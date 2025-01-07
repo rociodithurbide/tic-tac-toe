@@ -30,9 +30,32 @@ body {
   min-height: 100vh;
 }
 
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #979cf5;
+}
+
+.tic-tac-toe-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 40px 0px;
+}
+
+.four-in-line-board {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 40px 0px;
 }
 
 button {
