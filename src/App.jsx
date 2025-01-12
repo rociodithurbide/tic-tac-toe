@@ -20,9 +20,6 @@ function App() {
           <li>
             <button onClick={handleSelectNav}>Four InLine</button>
           </li>
-          <li>
-            <button onClick={handleSelectNav}>Battleship</button>
-          </li>
         </ul>
       </nav>
       <section>
