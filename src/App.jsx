@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import TicTacToeBoard from './components/TicTacToeBoard/TicTacToeBoard';
-import FourInLineBoard from './components/FourInLineBoard/fourinlineboard';
+import FourInLineBoard from './components/FourInLineBoard/FourInLineBoard';
 
 function App() {
   const [navSelected, setNavSelected] = useState('Tic Tac Toe');
