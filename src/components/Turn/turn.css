@@ -1,0 +1,13 @@
+.turn-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.turn {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  border: 1px solid #646cff;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
